@@ -1,5 +1,5 @@
 import telebot
-import configure
+import cfg
 from telebot import types
 
 client = telebot.TeleBot(cfg.config['token'])
